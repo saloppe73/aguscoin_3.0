@@ -1,7 +1,5 @@
 ### Linux (Debian/Ubuntu/Mint)
 
-##### Prerequisites
-
 - You will need the following packages: boost (1.55 or higher), rocksdb, cmake, git, gcc (4.9 or higher), g++ (4.9 or higher), make, and python. Most of these should already be installed on your system.
 - For example on ubuntu: 
 ```
