@@ -14,20 +14,17 @@ sudo apt-get update
 sudo apt-get install librocksdb-dev
 ```
 ##### Building
-
-if (gcc/g++ > v5) {
-
+if (default gcc/g++ > v5) {
 ```
 sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-5 100 && update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-5 100
 ```
-} else {
+}
 
 ```
 git clone https://github.com/saloppe73/aguscoin_3.0.git
 cd aguscoin_3.0
 mkdir build && cd build && cmake .. && make
 ```
-}
 
 The binaries will be in `/build/src` after compilation is complete.
 
